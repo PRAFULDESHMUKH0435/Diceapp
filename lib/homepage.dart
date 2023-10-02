@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
               _launchURL('https://pub.dev/');
             },
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20.0),
+              padding: EdgeInsets.only(right: 20.0),
               child: CircleAvatar(
                 radius: 18,
                 child: Image.network('https://cdn-icons-png.flaticon.com/512/25/25231.png'),
