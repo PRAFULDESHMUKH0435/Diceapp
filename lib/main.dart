@@ -1,6 +1,7 @@
 import 'package:diceapp/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'homepage.dart';
+import 'loginpage.dart';
 
 void main(){
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
         scaffoldBackgroundColor: Colors.yellow
       ),
-      home: SplashScreen(),
+      home: LoginPage(),
     );
   }
 }
